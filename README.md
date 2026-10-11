@@ -4,6 +4,8 @@ When an ecosystem moves its catalog from a hand-edited manifest to a queryable r
 
 Migration pattern version: **0.1** · Data currency: **as of 2026-10-11**.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 The MCP ecosystem made this move publicly: the reference-servers repository reduced itself to a handful of teaching implementations and handed catalog duties to a real registry (`registry.modelcontextprotocol.io`) — a signal, as of 2026-10-11, that README-curated lists had hit their governance ceiling. Every ecosystem that does this (MCP, awesome-lists going database, package indexes) hits the same failure window: old consumers keep scraping the stale manifest, contributors don't know where to submit, and archived entries vanish from view without a trace. The migration itself is under-engineered; the *transition* is the hard part, not the endpoint.
